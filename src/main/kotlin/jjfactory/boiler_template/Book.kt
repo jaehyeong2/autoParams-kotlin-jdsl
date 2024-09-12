@@ -7,6 +7,5 @@ class Book(
     var author: String,
     var publisher: String,
     var year: Int,
-    var isAvailable: Boolean = true,
 ) {
 }
