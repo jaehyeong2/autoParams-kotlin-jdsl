@@ -27,6 +27,7 @@ dependencies {
 	runtimeOnly("org.postgresql:postgresql")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
+	testImplementation("io.github.autoparams:autoparams:8.3.0")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
