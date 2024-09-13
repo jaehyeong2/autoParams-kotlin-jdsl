@@ -21,10 +21,14 @@ class UserTest {
         val user = User(email = "wogud2@naver.com", name = "lee", phone = "01012331233")
 
         user.modify(newEmail, newName, newAge)
+
+        println("newEmail = ${newEmail}")
+        println("newName = ${newName}")
+        println("newAge = ${newAge}")
+
         assertThat(user.email).isEqualTo(newEmail)
         assertThat(user.name).isEqualTo(newName)
         assertThat(user.age).isEqualTo(newAge)
-
     }
 
 }

@@ -28,6 +28,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
 	testImplementation("io.github.autoparams:autoparams:8.3.0")
+	testImplementation("com.navercorp.fixturemonkey:fixture-monkey-starter-kotlin:1.0.25")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
