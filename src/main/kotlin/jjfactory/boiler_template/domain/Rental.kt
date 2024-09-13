@@ -1,4 +1,4 @@
-package jjfactory.boiler_template
+package jjfactory.boiler_template.domain
 
 import java.time.LocalDate
 
@@ -27,6 +27,14 @@ class Rental(
             status = Status.CANCELED
             cancelDate = LocalDate.now()
         }
+    }
+
+    fun isReturned(): Boolean {
+        return status == Status.RETURNED
+    }
+
+    fun isCanceled(): Boolean {
+        return status == Status.CANCELED
     }
 
 }

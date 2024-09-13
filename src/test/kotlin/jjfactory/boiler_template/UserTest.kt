@@ -1,6 +1,7 @@
 package jjfactory.boiler_template
 
 import autoparams.AutoSource
+import jjfactory.boiler_template.domain.User
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.params.ParameterizedTest
 

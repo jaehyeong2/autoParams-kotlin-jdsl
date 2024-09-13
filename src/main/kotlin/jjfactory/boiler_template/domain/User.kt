@@ -1,6 +1,4 @@
-package jjfactory.boiler_template
-
-import java.time.LocalDateTime
+package jjfactory.boiler_template.domain
 
 class User(
     var email: String,

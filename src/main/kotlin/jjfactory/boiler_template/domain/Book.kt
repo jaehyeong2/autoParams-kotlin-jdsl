@@ -1,4 +1,4 @@
-package jjfactory.boiler_template
+package jjfactory.boiler_template.domain
 
 class Book(
     var isbn: String,
@@ -7,5 +7,10 @@ class Book(
     var author: String,
     var publisher: String,
     var year: Int,
+    var rentalCnt: Int = 0
 ) {
+
+    fun increaseRentalCount(){
+        rentalCnt++
+    }
 }
